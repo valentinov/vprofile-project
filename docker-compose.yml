@@ -39,7 +39,7 @@ services:
     build:
       context: ./Docker-files/web
     image: vlentino/vprofileweb
-    container_name: vproapp
+    container_name: vproweb
     ports:
       - "80:80"
 
